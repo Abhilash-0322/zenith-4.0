@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="flex items-center">
           <Link to="/" className="flex items-center gap-2">
         <img src={logo} alt="Mental Health Logo" className="h-17 w-12 object-contain" />
-        <span className="text-lg font-semibold text-purple-700">ZenHaven</span>
+        <span className="text-lg font-semibold text-purple-700">ZenHeaven</span>
       </Link>
           </div>
           
