@@ -42,8 +42,10 @@ const Landing = () => {
   
 
   return (
+    
     <div className="w-full">
       {/* Hero Section */}
+      
       <section className="relative overflow-hidden ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="md:flex md:items-center md:justify-between">
@@ -73,7 +75,9 @@ const Landing = () => {
               <div className="relative">
               <div className="aspect-w-5 aspect-h-5 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center">
   <img
-    src="https://i.postimg.cc/N0r4ywwM/Untitled-design.png"
+    // src="https://i.postimg.cc/N0r4ywwM/Untitled-design.png"
+    src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODZxaWhiZzR5eGFpMHl0eGZqMGExeWhjMDh0cTQwaHFlaHQ4d3lwayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nF9QkLDTfsuOyUx4EF/giphy.gif"
+
     alt="ZenHeaven mental wellness"
     className="w-full h-full object-cover "
   />

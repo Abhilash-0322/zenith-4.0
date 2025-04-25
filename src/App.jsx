@@ -10,7 +10,10 @@ import BookRecommender from './pages/BookRecommender';
 // import JournalPage from './pages/JournalPage';
 
 function App() {
+  
+  
   return (
+    
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
