@@ -1,12 +1,60 @@
-# React + Vite
+# 🧘 ZenHeaven – A Holistic Mental Wellness Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **ZenHeaven**, an AI-powered digital platform designed to provide personalized, accessible, and stigma-free mental health support. CalmVerse brings together therapy, self-care tools, and community features to create a safe, supportive, and empowering environment for anyone struggling with stress, anxiety, or emotional challenges.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Problem Statement – *The Mental Health Gap*
 
-## Expanding the ESLint configuration
+- Mental health issues like stress, anxiety, and depression are rapidly increasing.
+- Traditional therapy is often expensive, inaccessible, or socially stigmatized.
+- There is no unified platform that combines therapy, self-care, and community support.
+- People lack consistent and personalized emotional guidance in times of need.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💡 Our Solution – What ZenHeaven Offers
+
+| Feature                        | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| 🧑‍⚕️ 1-on-1 Therapy Sessions   | Connect with licensed professionals via secure video calls.                 |
+| 🎧 Mindful Music Playlist     | AI-powered, mood-based music recommendations for emotional support.         |
+| 📓 Journaling & Mood Check-ins| Daily entries to foster self-reflection and track emotional patterns.       |
+| 📚 Book Recommendations       | Curated reads for personal growth and mental wellness.                      |
+| 🤖 24/7 AI Chatbot            | Offers breathing techniques, instant help, and escalation to counselors.    |
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React.js
+- Tailwind CSS
+
+**Backend:**
+-FastAPI
+
+**Database & Storage:**
+- MongoDB
+-  Socket.io (Real-time)
+
+**AI Features:**
+- Python + TensorFlow for mood detection and personalized suggestions
+
+**Video Calls:**
+- Daily.co / Twilio for real-time therapy sessions
+
+## 👥 Team Info
+
+- **Team Name:** Wind Breakers  
+- **Project Name:** ZenHeaven 
+- **Team Leader:** Vaibhav Mishra  
+- **Institute:** KIET Group of Institutions
+
+---
+
+## 📌 License
+
+This project is for educational and demonstration purposes as part of a hackathon. For professional mental health support, users should consult certified professionals.
+
+---
