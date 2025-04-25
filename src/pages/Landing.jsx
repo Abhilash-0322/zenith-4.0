@@ -49,7 +49,7 @@ const Landing = () => {
           <div className="md:flex md:items-center md:justify-between">
             <div className="md:w-1/2 md:pr-12bg-[rgb(232,246,221)] p-4">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black leading-tight">
-            Find Your Balance with <span className="text-purple-400">ZenHaven</span>
+            Find Your Balance with <span className="text-purple-400">ZenHeaven</span>
               </h1>
               <p className="mt-6 text-lg text-gray-600 max-w-2xl">
                 A peaceful sanctuary for your mental well-being. Discover personalized resources, practice mindfulness, and find harmony in your daily life.
