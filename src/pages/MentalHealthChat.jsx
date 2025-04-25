@@ -5,7 +5,7 @@ const MentalHealthChat = () => {
   const [messages, setMessages] = useState([
     {
       type: 'system',
-      content: 'Welcome to CalmVerse Mental Health Support. How are you feeling today?',
+      content: 'Welcome to ZenHeaven Mental Health Support. How are you feeling today?',
       timestamp: new Date(),
     }
   ]);

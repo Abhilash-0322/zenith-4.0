@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Flower className="h-6 w-6 text-indigo-600" />  {/* Changed from Lotus to Flower */}
-            <span className="ml-2 text-lg font-semibold text-indigo-900">CalmVerse</span>
+            <span className="ml-2 text-lg font-semibold text-indigo-900">ZenHeaven</span>
           </div>
           
           <div className="flex flex-col md:flex-row md:space-x-8 items-center text-sm text-gray-600">
@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="flex items-center justify-center">
             Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> by Wind Breakers
           </p>
-          <p className="mt-2">© {new Date().getFullYear()} CalmVerse. All rights reserved.</p>
+          <p className="mt-2">© {new Date().getFullYear()} ZenHeaven. All rights reserved.</p>
         </div>
       </div>
     </footer>

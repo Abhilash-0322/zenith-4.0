@@ -74,7 +74,7 @@ const Landing = () => {
               <div className="aspect-w-5 aspect-h-5 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center">
   <img
     src="https://i.postimg.cc/N0r4ywwM/Untitled-design.png"
-    alt="CalmVerse mental wellness"
+    alt="ZenHeaven mental wellness"
     className="w-full h-full object-cover "
   />
 </div>
@@ -149,7 +149,7 @@ const Landing = () => {
               <div className="md:w-1/2 bg-purple-300 p-12">
                 <div className='p-7 h-full rounded-md shadow-lg'><h2 className="text-3xl font-bold">Finding Peace in Daily Life</h2>
                 <p className="mt-4 text-black">
-                  Join thousands of others who have discovered balance and tranquility with CalmVerse's mental wellness tools.
+                  Join thousands of others who have discovered balance and tranquility with ZenHeaven's mental wellness tools.
                 </p>
                 <div className="mt-8">
                   <Link
@@ -176,7 +176,7 @@ const Landing = () => {
               <div className="md:w-1/2 p-12">
                 <div className="flex flex-col h-full justify-center">
                   <p className="text-xl text-gray-600 italic">
-                    "CalmVerse has transformed how I approach my mental health. The music recommendations and journaling features have become an essential part of my daily routine."
+                    "ZenHeaven has transformed how I approach my mental health. The music recommendations and journaling features have become an essential part of my daily routine."
                   </p>
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0 h-10 w-10 rounded-full bg-indigo-100 flex items-center justify-center">
@@ -184,7 +184,7 @@ const Landing = () => {
                     </div>
                     <div className="ml-4">
                       <div className="text-base font-medium text-gray-900">Jamie D.</div>
-                      <div className="text-sm text-gray-500">CalmVerse User</div>
+                      <div className="text-sm text-gray-500">ZenHeaven User</div>
                     </div>
                   </div>
                 </div>
@@ -206,7 +206,7 @@ const Landing = () => {
               to="/musicrecommend"
               className="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg shadow-md transition-colors text-lg"
             >
-              Explore CalmVerse
+              Explore ZenHeaven
             </Link>
           </div>
         </div>
