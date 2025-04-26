@@ -14,6 +14,7 @@ const Navbar = () => {
     { title: 'Book Recommendations', path: '/books' },
     { title: 'Mental Health Support', path: '/chat' },
     { title: 'Journal', path: '/journal' },
+    // { title: 'Supercoin 🔥', path: 'https://fanciful-froyo-184d97.netlify.app/' }
   ];
 
   const toggleMenu = () => {

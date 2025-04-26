@@ -39,28 +39,27 @@ const Landing = () => {
       color: 'bg-amber-200',
     },
   ];
-  
+
 
   return (
-    
+
     <div className="w-full">
       {/* Hero Section */}
-      
       <section className="relative overflow-hidden ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="md:flex md:items-center md:justify-between">
             <div className="md:w-1/2 md:pr-12bg-[rgb(232,246,221)] p-4">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black leading-tight">
-            Find Your Balance with <span className="text-purple-400">ZenHeaven</span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black leading-tight">
+                Find Your Balance with <span className="text-purple-400">ZenHeaven</span>
               </h1>
               <p className="mt-6 text-lg text-gray-600 max-w-2xl">
                 A peaceful sanctuary for your mental well-being. Discover personalized resources, practice mindfulness, and find harmony in your daily life.
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
-              <Link
+                <Link
                   to="/musicrecommend"
                   className="px-6 py-3 bg-purple-200 hover:bg-purple-300 text-black font-medium rounded-lg shadow-md transition-colors"
-                  >
+                >
                   Start Your Journey
                 </Link>
                 <Link
@@ -73,15 +72,15 @@ const Landing = () => {
             </div>
             <div className="mt-10 md:mt-0 md:w-1/2">
               <div className="relative">
-              <div className="aspect-w-5 aspect-h-5 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center">
-  <img
-    // src="https://i.postimg.cc/N0r4ywwM/Untitled-design.png"
-    src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODZxaWhiZzR5eGFpMHl0eGZqMGExeWhjMDh0cTQwaHFlaHQ4d3lwayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nF9QkLDTfsuOyUx4EF/giphy.gif"
+                <div className="aspect-w-5 aspect-h-5 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center">
+                  <img
+                    // src="https://i.postimg.cc/N0r4ywwM/Untitled-design.png"
+                    src="https://nouveaumedics.com/wp-content/uploads/2020/07/mental-health.jpg"
 
-    alt="ZenHeaven mental wellness"
-    className="w-full h-full object-cover "
-  />
-</div>
+                    alt="ZenHeaven mental wellness"
+                    className="w-full h-full object-cover "
+                  />
+                </div>
 
 
                 <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-indigo-100 rounded-full opacity-50 z-0"></div>
@@ -94,39 +93,39 @@ const Landing = () => {
 
       {/* Features Section */}
       <section className="py-16 bg-gradient-to-b from-transparent to-indigo-50">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="text-center">
-      <h2 className="text-5xl font-bold text-black-900 animate-slide-in">
-        Our Mindful Features
-      </h2>
-      <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-        Comprehensive tools designed to support your mental health journey, all in one peaceful digital space.
-      </p>
-    </div>
-
-    <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
-      {features.map((feature, index) => (
-        <Link
-          key={index}
-          to={feature.path}
-          className="group relative rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 ease-in-out transform hover:scale-105"
-        >
-          <div
-            className={`p-7 ${feature.color} w-full h-full outline transition-all group-hover:translate-y-2 transform group-hover:scale-105 opacity-100 group-hover:opacity-90 hover:animate-pastel-bg`}
-          >
-            <div className="p-4 ">
-              <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
-            </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-5xl font-bold text-black-900 animate-slide-in">
+              Our Mindful Features
+            </h2>
+            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+              Comprehensive tools designed to support your mental health journey, all in one peaceful digital space.
+            </p>
           </div>
-        </Link>
-      ))}
-    </div>
-  </div>
-</section>
 
-<style jsx>{`
+          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
+            {features.map((feature, index) => (
+              <Link
+                key={index}
+                to={feature.path}
+                className="group relative rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 ease-in-out transform hover:scale-105"
+              >
+                <div
+                  className={`p-7 ${feature.color} w-full h-full outline transition-all group-hover:translate-y-2 transform group-hover:scale-105 opacity-100 group-hover:opacity-90 hover:animate-pastel-bg`}
+                >
+                  <div className="p-4 ">
+                    <div className="text-4xl mb-4">{feature.icon}</div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                    <p className="text-gray-600">{feature.description}</p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <style jsx>{`
   /* Animation for the sliding effect */
   @keyframes slideInFromLeft {
     0% {
@@ -152,29 +151,29 @@ const Landing = () => {
             <div className="md:flex">
               <div className="md:w-1/2 bg-purple-300 p-12">
                 <div className='p-7 h-full rounded-md shadow-lg'><h2 className="text-3xl font-bold">Finding Peace in Daily Life</h2>
-                <p className="mt-4 text-black">
-                  Join thousands of others who have discovered balance and tranquility with ZenHeaven's mental wellness tools.
-                </p>
-                <div className="mt-8">
-                  <Link
-                    to="/testimonials"
-                    className="inline-flex items-center  hover:text-green-600"
-                  >
-                    Read more stories
-                    <svg
-                      className="ml-2 h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
+                  <p className="mt-4 text-black">
+                    Join thousands of others who have discovered balance and tranquility with ZenHeaven's mental wellness tools.
+                  </p>
+                  <div className="mt-8">
+                    <Link
+                      to="/testimonials"
+                      className="inline-flex items-center  hover:text-green-600"
                     >
-                      <path
-                        fillRule="evenodd"
-                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </Link>
-                </div>
+                      Read more stories
+                      <svg
+                        className="ml-2 h-5 w-5"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div className="md:w-1/2 p-12">
